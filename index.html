@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walidacja formularza</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="" id="form">
+        <ul id="errors"></ul>
+        <label for="name">Imię i nazwisko</label><br>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="email">Adres email</label><br>
+        <input type="email" name="email" id="email"><br>
+
+        <input type="checkbox" name="check1" id="check1">
+        <label for="check1">Zgoda marketingowa 1</label><br>
+
+        <input type="checkbox" name="check2" id="check2">
+        <label for="check2">Zgoda marketingowa 2</label><br>
+
+        <input type="checkbox" name="checkall" id="checkall">
+        <label for="checkall">Wszystkie zgody</label><br><br>
+
+        <input type="submit" id="submit" value="Zaakceptuj newsletter!">
+
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

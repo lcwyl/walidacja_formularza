@@ -1,0 +1,30 @@
+form {
+    background-color:#131374 ;
+    padding: 20px;
+    max-width: 300px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+}
+
+label {
+    color: white;
+}
+ul{padding-left:18px;}
+ul li{color:red;}
+input[type="checkbox"] {
+    margin: 10px 0;
+}
+
+input[type="submit"]{
+    background-color: #9C7F00;
+    padding:5px;
+    border:0;
+    transition: background-color 0.5s;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color:#E8C00E;
+}
